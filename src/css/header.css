@@ -1,0 +1,29 @@
+header{
+    background-color: #EBD8BC;
+    margin-bottom: 50px;
+}
+
+.wrapperHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapperHeaderNavigation{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.phoneNumberLinkHeader{
+    color: #643843;
+    transition: 0.3s;
+}
+
+.phoneNumberLinkHeader:focus, .phoneNumberLinkHeader:hover{
+    color: #591c2b;
+}
+
+.burgerMenu{
+    cursor: pointer;
+}

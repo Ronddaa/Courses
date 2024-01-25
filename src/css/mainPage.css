@@ -1,0 +1,46 @@
+.wrapperOurCourses{
+    width: 100%;
+}
+
+.ourCoursesList{
+    background-color: #EBD8BC;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    align-items: center;
+    max-height: 360px;
+    border-radius: 10px;
+}
+
+.titleFrstCourses{
+    font-size: 52px;
+    color: #643843;
+    font-weight: 500;
+}
+
+.textUnderTitleCourses{
+    color: #643843;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.goToFrstCoursesBtn{
+    padding: 14px 84px;
+    background-color: #643843;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.3s;
+}
+
+.goToFrstCoursesBtn:hover, .goToFrstCoursesBtn:focus{
+    background-color: #591c2b;
+}
+
+.frstCoursesIMG{
+    max-height: 280px;
+    border-radius: 10px;
+}
