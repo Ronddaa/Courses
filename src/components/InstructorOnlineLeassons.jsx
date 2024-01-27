@@ -11,8 +11,9 @@ export default function InstructorOnlineLeasson() {
                     <iframe className="leassonFrst" width={1158} height={554} src="https://www.youtube.com/embed/HJA92LQrsvw?si=I8ADAgNETbHo-8n6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <h3 className="titleSentHW">Надіслати домашнє завдання</h3>
                     <div className="wrapperHWmade">
-                        
+                        <textarea name="HomeWork" id="homeWork" cols="30" rows="10"></textarea>
                     </div>
+                    <button className="sentHomeWorkBtn" id="sentHomeWorkBtnID">НАДІСЛАТИ</button>
                 </div>
             </section>
         </div>
