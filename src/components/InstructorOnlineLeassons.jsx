@@ -1,4 +1,5 @@
 import Header from "./Header";
+import '../css/InstructorOnlineLeasson.css'
 
 export default function InstructorOnlineLeasson() {
     return(
