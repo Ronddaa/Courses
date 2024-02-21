@@ -48,7 +48,7 @@ export default function InstructorOnline() {
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson6'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 6</h3>
-                                <p className="nameOfLeasson">Сертифікат, чи диплом</p>
+                                <p className="nameOfLeasson">Сертифікат, чи диплом. Створення логотипу</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
@@ -62,70 +62,70 @@ export default function InstructorOnline() {
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson8'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 8</h3>
-                                <p className="nameOfLeasson">Створення логотипу</p>
+                                <p className="nameOfLeasson">Фото для соцмереж</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson9'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 9</h3>
-                                <p className="nameOfLeasson">Фото для соцмереж</p>
+                                <p className="nameOfLeasson">Вигорання. Симптоми та запобігання</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson10'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 10</h3>
-                                <p className="nameOfLeasson">Вигорання. Симптоми та запобігання</p>
+                                <p className="nameOfLeasson">Побудова структури першого курсу</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson11'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 11</h3>
-                                <p className="nameOfLeasson">Побудова структури першого курсу</p>
+                                <p className="nameOfLeasson">Онлайн, чи офлайн.Переваги та недоліки</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson12'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 12</h3>
-                                <p className="nameOfLeasson">Онлайн, чи офлайн.Переваги та недоліки</p>
+                                <p className="nameOfLeasson">Співпраця з моделями</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson13'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 13</h3>
-                                <p className="nameOfLeasson">Співпраця з моделями</p>
+                                <p className="nameOfLeasson">Якщо не виходить в учнів. Що робити?</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson14'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 14</h3>
-                                <p className="nameOfLeasson">Якщо не виходить в учнів. Що робити?</p>
+                                <p className="nameOfLeasson">Теорія для учнів. Подаємо впевнено</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson15'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 15</h3>
-                                <p className="nameOfLeasson">Теорія для учнів. Подаємо впевнено</p>
+                                <p className="nameOfLeasson">Перше практичне заняття</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson16'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 16</h3>
-                                <p className="nameOfLeasson">Перше практичне заняття</p>
+                                <p className="nameOfLeasson">Підвищення кваліфікації</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
                         <li className="InstructorOnlineList" onClick={() => {window.location.href = '/Courses/InstructorOnline/Leasson17'}}>
                             <article className="wrapperTitleLeasson">
                                 <h3 className="titleLeasson">УРОК 17</h3>
-                                <p className="nameOfLeasson">Підвищення кваліфікації</p>
+                                <p className="nameOfLeasson">Дезинфекція та стерилізація</p>
                             </article>
                             <svg className="arrowRightToLeasson" width={32} height={32}><use xlinkHref={`${sprite}#icon-arrowRightNext`}></use></svg>
                         </li>
