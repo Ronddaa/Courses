@@ -1,4 +1,6 @@
-import Header from "./Header";
+import mainLogo from '../assets/mainLogo.svg';
+import sprite from '../assets/icons.svg';
+
 
 export default function Main() {
     const handleSubmit = (e) => {
@@ -18,7 +20,7 @@ export default function Main() {
             else {
                 console.log("wrong log");
                 // сюди добав обробку помилки
-            };
+            }
             
         })
         .catch(error => console.error(error));
@@ -30,7 +32,15 @@ export default function Main() {
 
     return (
         <div className="JustWrapper">
-            <Header />
+            <header className="header">
+                <div className="container wrapperHeader">
+                    <img src={mainLogo} alt="Logo" />
+                    <div className="wrapperHeaderNavigation">
+                        <a href="tel:+380680333203" className="phoneNumberLinkHeader">+380 68 033 32 03</a>
+                        <a href="https://www.instagram.com/ivanna_katrych?igsh=NTd6cjIzejlqNmF0" className="mainLinkToInstagram" target='_blank' rel='noreferrer'><svg className='mainLinkToInstagramSVG' width={50} height={50}><use xlinkHref={`${sprite}#icon-instagram`} /></svg></a>
+                    </div>
+                </div>
+            </header>
             <section className="startPageLogin">
                 <div className="container wrapperStartPage">
                     <article className="HelloOnCourses">
