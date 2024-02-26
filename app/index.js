@@ -1,8 +1,4 @@
 const http = require('http');
-const https = require('https');
-const url = require('url');
-const { parse } = require('querystring');
-const fs = require('fs');
 const users = require('./users');
 let body = "";
 
