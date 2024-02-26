@@ -10,11 +10,11 @@ export default function Main() {
             body:  JSON.stringify({ 
                 "name": login,
                 "pass" : password
-              }),
-            mode: 'cors'
+              })
         }).then(response => response.text())
         .then(text => {
-            if (text=="true") {window.location.href = '/Courses'}
+            if (text=="true") {console.log('true'); 
+        window.location.href = '/Courses';}
             else {
                 console.log("wrong log");
                 // сюди добав обробку помилки
