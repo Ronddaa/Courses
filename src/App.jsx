@@ -1,8 +1,8 @@
 import './App.css';
-import Main from './components/LoginPage';
+import Main from './LoginPage';
 import {Route, Routes} from 'react-router-dom';
-import MainPage from './components/MainPage';
-import InstructorOnline from './components/InstructorOnline'
+import MainPage from './MainPage';
+import InstructorOnline from './InstructorOnline'
 import {
   InstructorOnlineLeasson1,
   InstructorOnlineLeasson2,
@@ -22,8 +22,8 @@ import {
   InstructorOnlineLeasson16,
   InstructorOnlineLeasson17,
 }
-  from './components/InstructorOnlineLeassons';
-  import Error404 from './components/404';
+  from './InstructorOnlineLeassons';
+  import Error404 from './404';
 
 export default function App() {
   return (

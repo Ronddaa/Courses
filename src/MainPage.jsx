@@ -1,5 +1,5 @@
 import Header from "./Header";
-import InstructorOnlineIMG from '../img/coursesInstructorOnline.webp';
+import InstructorOnlineIMG from './img/coursesInstructorOnline.webp';
 
 export default function MainPage() {
     

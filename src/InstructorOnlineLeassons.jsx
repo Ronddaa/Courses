@@ -1,5 +1,5 @@
 import Header from "./Header";
-import '../css/InstructorOnlineLeasson.css'
+import './css/InstructorOnlineLeasson.css'
 
 export function InstructorOnlineLeasson1() {
     return(

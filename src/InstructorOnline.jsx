@@ -1,5 +1,5 @@
 import Header from "./Header";
-import sprite from '../assets/icons.svg';
+import sprite from './assets/icons.svg';
 
 export default function InstructorOnline() {
     

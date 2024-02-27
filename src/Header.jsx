@@ -1,5 +1,5 @@
-import mainLogo from '../assets/mainLogo.svg';
-import sprite from '../assets/icons.svg';
+import mainLogo from './assets/mainLogo.svg';
+import sprite from './assets/icons.svg';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
