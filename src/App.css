@@ -1,5 +1,6 @@
 @import url(Reset.css);
-@import url(./css/header.css);
-@import url(./css/loginPage.css);
-@import url(./css/mainPage.css);
-@import url(./css/instructorOnline.css);
+@import url(./header.css);
+@import url(./loginPage.css);
+@import url(./mainPage.css);
+@import url(./instructorOnline.css);
+@import url(./InstructorOnlineLeasson.css);
