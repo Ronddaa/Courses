@@ -23,6 +23,7 @@ import {
   InstructorOnlineLeasson17,
 }
   from './components/InstructorOnlineLeassons';
+  import Error404 from './components/404';
 
 export default function App() {
   return (
@@ -48,6 +49,8 @@ export default function App() {
           <Route path='Courses/InstructorOnline/Leasson15' element={<InstructorOnlineLeasson15 />} />
           <Route path='Courses/InstructorOnline/Leasson16' element={<InstructorOnlineLeasson16 />} />
           <Route path='Courses/InstructorOnline/Leasson17' element={<InstructorOnlineLeasson17 />} />
+
+          <Route path='*' element={<Error404 />}/>
         </Routes>     
     </div>
   )
