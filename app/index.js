@@ -1,5 +1,5 @@
-const http = require('http');
-const users = require('./users');
+import { createServer } from 'http';
+import users from './users';
 let body = "";
 
 async function findUser(name, pass) {
@@ -10,7 +10,7 @@ async function findUser(name, pass) {
 }
 
 
-http.createServer(async (req, res)=> {
+createServer(async (req, res)=> {
     console.log('server work');
     if(req.url == "/login"){
         // буфер для получаемых данных

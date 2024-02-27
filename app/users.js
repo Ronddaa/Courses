@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     "matador" : {
         "name" : 'matador',
         "pass" : '123321'
