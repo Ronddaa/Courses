@@ -6,9 +6,7 @@ import sprite from './icons.svg';
 
 const PrivateRoute = () => {
     const isLoggedIn = !!localStorage.getItem('login');
-    return (
-        isLoggedIn ? <Outlet /> : <Navigate to='Courses' />
-    )
+    return isLoggedIn ? <Outlet /> : <Navigate to='/' />;
 }
  export default function App() {
   return (
@@ -627,7 +625,15 @@ function MainPage() {
 function Error404() {
     return (
         <div className="JustWrapper">
-            <Header />
+            <header className="header">
+                <div className="container wrapperHeader">
+                    <img src={mainLogo} alt="Logo" />
+                    <div className="wrapperHeaderNavigation">
+                        <a href="tel:+380680333203" className="phoneNumberLinkHeader">+380 68 033 32 03</a>
+                        <a href="https://www.instagram.com/ivanna_katrych?igsh=NTd6cjIzejlqNmF0" className="mainLinkToInstagram" target='_blank' rel='noreferrer'><svg className='mainLinkToInstagramSVG' width={50} height={50}><use xlinkHref={`${sprite}#icon-instagram`} /></svg></a>
+                    </div>
+                </div>
+            </header>
             <h1 className="titleError404">Сторінка не знайдена</h1>
         </div>
     )
