@@ -107,10 +107,13 @@ header {
     max-width: 52px;
     max-height: 48px;
   }
+  .phoneNumberLinkHeader {
+    font-size: 14px;
+  }
   .mainLinkToInstagramSVG {
     max-width: 40px;
   }
-  .wrapperHeaderNavigation{
+  .wrapperHeaderNavigation {
     gap: 10px;
   }
 }
