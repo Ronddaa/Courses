@@ -1,42 +1,66 @@
-.titleInstructorOnline{
-    text-align: center;
-    font-size: 52px;
-    color: #643843;
-    font-weight: 500;
-    margin-bottom: 50px;
+.titleInstructorOnline {
+  text-align: center;
+  font-size: 52px;
+  color: #643843;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 
-.InstructorOnlineLeassons{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 200px;
+.InstructorOnlineLeassons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 200px;
 }
 
-.InstructorOnlineList{
-    background-color: #EBD8BC;
-    padding: 20px 60px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.3s;
+.InstructorOnlineList {
+  background-color: #ebd8bc;
+  padding: 20px 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
 }
 
-.InstructorOnlineList:hover, .InstructorOnlineList:focus{
-    cursor: pointer;
-    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.15);
+.InstructorOnlineList:hover,
+.InstructorOnlineList:focus {
+  cursor: pointer;
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.15);
 }
 
-.titleLeasson{
-    font-size: 24px;
-    font-family: 'Comfortaa';
-    margin-bottom: 10px;
-    font-weight: 700;
+.titleLeasson {
+  font-size: 24px;
+  font-family: "Comfortaa";
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
-.nameOfLeasson{
-    color: #B16679;
-    font-size: 20px;
-    font-weight: 500;
+.nameOfLeasson {
+  color: #b16679;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width: 678px) {
+  .titleInstructorOnline {
+    font-size: 22px;
+    max-width: 266px;
+    margin: 0 auto 40px;
+  }
+  .InstructorOnlineLeassons {
+    gap: 10px;
+  }
+  .InstructorOnlineList {
+    padding: 10px 15px;
+    gap: 72px;
+  }
+  .titleLeasson {
+    font-size: 16px;
+  }
+  .nameOfLeasson {
+    font-size: 14px;
+  }
+  .arrowRightToLeasson{
+    max-width: 28px;
+  }
 }
