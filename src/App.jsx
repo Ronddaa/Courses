@@ -614,7 +614,7 @@ function MainPage() {
                                 <p className="textUnderTitleCourses">Онлайн-курс в записі.</p>
                                 <button className="goToFrstCoursesBtn" id="goToFrstCoursesBtnID" type="button" onClick={GoToInstructorOnline}>ДО КУРСУ</button>
                             </article>
-                            <img src={InstructorOnlineIMG} alt="Instructor Online" className="frstCoursesIMG" width={260} height={280} />
+                            <img src={InstructorOnlineIMG} alt="Instructor Online" className="frstCoursesIMG" width={500} height={500} />
                         </li>
                     </ul>
                 </div>

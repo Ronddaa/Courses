@@ -43,7 +43,8 @@
 }
 
 .frstCoursesIMG {
-  max-height: 280px;
+  max-width: 261px;
+  max-height: 278px;
   border-radius: 10px;
 }
 @media (max-width: 768px) {
@@ -55,5 +56,18 @@
     flex-direction: column-reverse;
     max-height: 100%;
     text-align: center;
+    padding: 10px 10px 20px;
+  }
+  .titleFrstCourses {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .textUnderTitleCourses {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .frstCoursesIMG {
+    margin-bottom: 15px;
+    max-width: 95%;
   }
 }
