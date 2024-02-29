@@ -54,9 +54,9 @@ header {
   height: 100%;
 }
 
-.openBurgerMenuBtn{
-    transform: translate(0);
-    opacity: 1;
+.openBurgerMenuBtn {
+  transform: translate(0);
+  opacity: 1;
 }
 
 .closeBurgerBtn {
@@ -97,4 +97,17 @@ header {
   gap: 10px;
   font-size: 18px;
   color: #643843;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 26px 0;
+  }
+  .headerLogoMain {
+    max-width: 52px;
+    max-height: 48px;
+  }
+  .mainLinkToInstagramSVG {
+    max-width: 40px;
+  }
 }
