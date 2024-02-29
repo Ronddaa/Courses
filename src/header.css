@@ -110,4 +110,7 @@ header {
   .mainLinkToInstagramSVG {
     max-width: 40px;
   }
+  .wrapperHeaderNavigation{
+    gap: 10px;
+  }
 }
