@@ -139,6 +139,12 @@ svg:focus {
   padding: 0 26px;
 }
 
+@media(min-width:769px){
+  .container{
+    padding: 15px 100px;
+  }
+}
+
 @media (min-width: 1158px) {
   .container {
     max-width: 1440px;
