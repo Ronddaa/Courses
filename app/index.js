@@ -44,7 +44,7 @@ createServer(async (req, res)=> {
         console.log("notlogin");
     }
 
-}).listen(3500);
+}).listen(3500, '0.0.0.0');
 
 
 
