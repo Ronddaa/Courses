@@ -84,7 +84,7 @@ function Main() {
         e.preventDefault();
         let login = document.getElementById('InputLogInID').value;
         let password = document.getElementById('InputPassID').value;
-        fetch('https://ivannakatrych.com.ua:3500/login', {
+        fetch('https://ivannakatrych.com.ua:443/login', {
             method: "POST",
             body:  JSON.stringify({ 
                 "name": login,
